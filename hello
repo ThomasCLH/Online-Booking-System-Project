@@ -1,1 +1,12 @@
-hello world
+<!doctype html>
+<html>
+    <head>
+        <meta charset=""UTF-8"></meta>
+        <title>Booking</title>
+    </head>
+    <body>
+        <h3>Food Booking System</h3>
+        <p>Ticket</p>
+        <p>Order</p>
+    </body>
+</html>
