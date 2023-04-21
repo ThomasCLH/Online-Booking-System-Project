@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initialscale=1.0">
+	<link rel="stylesheet" href="css/restaurant_detail_setting.css">
+	<script src="script/d_script.js"> </script>
+</head>
+
+<body>
+	<div id="container">
+	
+		<div id="header">
+			<div class="header_Logo">
+				Banner
+			</div>
+				
+			<div class="header_function">
+				search 
+			</div>
+		</div>
+		
+		<div class="body_container">
+		
+			<div class="address">
+				<h1>Address</h1>
+				<ul>
+					<li>Shop 1, Level 1,</li>
+					<li>The Peak Tower, </li>
+					<li>128 Peak Road,</li>
+					<li>The Peak</li>
+				</ul>
+			</div>
+			
+			<div class="main_body">
+				<button onclick="info()" style="height:75px">Information</button>
+				<button onclick="cmt()" style="height:75px">Comment</button>
+				<button onclick="book()" style="height:75px">Booking here</button>
+				
+				<div class = "content">
+				
+					<div class = "information" id="info_c">
+						<p>
+						American/Hamburger/Fast Food
+						</p>
+					</div>
+	
+					<div class = "comment" id="cmt_c">
+						Testing
+					</div>
+					
+					<div class = "booking" id="book_c">
+					
+						<div class="booking_form" id="book_f">
+							<div class="booking_field">
+								<p>Your Name</p> 
+								<input type="text"> </input>
+							</div>
+						
+							<div class="booking_field">
+								<p>Your email</p> 
+								<input type="email"> </input>
+							</div>
+						
+							<div class="booking_field">
+								<p>The date</p> 
+								<input type="date" id="booking_d"> </input>
+							</div>
+						
+							<div class="booking_field">
+								<p>The time</p> 
+								<input type="time" id="booking_t"> </input>
+							</div>
+						
+							<div class="booking_field">
+								<p>How many people</p> 
+								<select name="number" id="number"> 
+									<option value="1">1 people</option>
+									<option value="2">2 people</option>
+									<option value="3">3 people</option>
+									<option value="4">4 people</option>
+									<option value="5">5 people</option>
+								</select>
+							</div>
+						
+							<button class="btn" onclick="confirmed()">Submit</button>						
+						</div>
+						
+						<div class="booking_confirmed" id="book_conf">
+							<p>Thank for the booking</p>
+							<p id="conf_d">Your booking date is: </p>
+							<p id="conf_t">Your booking time is: </p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</body>
+
+	
+
+</html>

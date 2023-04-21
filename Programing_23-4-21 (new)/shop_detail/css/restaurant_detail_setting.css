@@ -1,0 +1,135 @@
+#header 
+{
+	background-color: #FDF8EA;
+	padding: 15px;
+	width: auto;
+	height: 10vh;
+	display:grid;
+	grid-template-columns: auto auto auto;
+}
+
+#container
+{
+	height: 100vh;
+	width: 100%;
+}
+
+.body_container
+{
+	width: auto;
+	height: 100%;
+	display: flex;
+	gap: 10px;
+	padding: 15px;
+}
+
+.header_Logo
+{
+	border-style: solid;
+	background-color: white;
+	text-align: center;
+}
+
+.header_function
+{
+	border-style: solid;
+	text-align: center;
+	grid-column: span 2;
+}
+
+.address
+{
+	border-style: solid;
+	width: 30vh;
+}
+
+.address h1
+{
+	padding: 10px;
+}
+
+.main_body
+{
+	border-style: solid;
+	display:grid;
+	grid-template-columns: auto auto auto ;
+	grid-template-rows: 100px auto;
+	gap: 10px;
+	width: 100%;
+	padding: 15px;
+}
+
+.main_body p
+{
+	text-align: center;
+	border-style: solid;
+}
+
+.content
+{
+	border-style: solid;
+	grid-column: span 3;
+}
+
+.information
+{
+	display: block;
+}
+
+.comment
+{
+	display: none;
+}
+
+.booking
+{
+	display: none;
+}
+
+.booking_form
+{
+	display:grid;
+	gap: 10px;
+}
+
+.booking_field
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn
+{
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 100px;	
+	background-color: #D9D9D9;
+}
+
+.btn:hover
+{
+	background-color: #C4C4C4;
+}
+
+.btn:active
+{
+	background-color: #EFEFEF;
+}
+
+@media only screen and (max-width: 600px) 
+{
+	.body_container
+	{
+		display: block;
+	}
+	
+	.main_body
+	{
+		width: auto;
+	}
+	
+	.address
+	{
+		width: auto;
+	}
+}
