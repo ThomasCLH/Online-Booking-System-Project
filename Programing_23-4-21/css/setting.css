@@ -1,0 +1,75 @@
+#header 
+{
+	background-color: #FDF8EA;
+	padding: 15px;
+	width: auto;
+	height: 10vh;
+	display:grid;
+	grid-template-columns: auto auto auto;
+}
+
+#container
+{
+	height: 100vh;
+	width: 100%;
+}
+
+#body
+{
+	width: auto;
+	height: auto;
+}
+
+.header_Logo
+{
+	border-style: solid;
+	background-color: white;
+	text-align: center;
+}
+
+.header_function
+{
+	border-style: solid;
+	text-align: center;
+	grid-column: span 2;
+}
+
+.item_container
+{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 10px;
+	padding: 15px;
+}
+
+[class*="item_box-"]
+{
+	border-style: solid;
+	display:grid;
+	grid-template-columns: auto;
+	gap: 5px;
+	padding: 5px;
+}
+
+.itempic
+{
+	width:auto;
+	grid-row: span 2;
+}
+
+.itempic img
+{
+	height:100%;
+	width:100%;
+}
+
+.itemtext
+{
+	text-align: center;
+}
+
+.title
+{
+	border-style: solid;
+	grid-column: span 4;
+}
